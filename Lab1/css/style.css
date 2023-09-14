@@ -1,0 +1,40 @@
+div{
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+  color: red;
+}
+.header, .footer {
+  width: 80%;
+  height: 20vh;
+}
+.content {
+  width: 80%;
+  height: 50vh;
+}
+.link {
+  color: red;
+}
+form {
+  margin-left: 60px;
+}
+input {
+  width: 150px;
+  height: 30px;
+}
+button {
+  width: 100px;
+  height: 30px;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+video {
+  margin-left: 60px;
+}
