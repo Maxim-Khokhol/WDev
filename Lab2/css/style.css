@@ -1,0 +1,86 @@
+.header, .footer, .sidebar, .content {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: red;
+  background-color: #FACCCC;
+}
+.header, .footer {
+  width: 100%;
+  height: auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.sidebar, .content {
+  height: 60vh;
+}
+.sidebar {
+  width: 30%;
+}
+.content {
+  margin-left: 20px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  height: 10vh;
+}
+.last {
+  margin-right: 20px;
+}
+ul {
+  padding: 0;
+}
+li {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.sidebar-links {
+  list-style: none;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+}
+
+.sidebar-links a:hover {
+  color: red;
+}
+.first-line, .second-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.first-line img, .second-line img {
+  height: 20vh;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px dimgrey;
+  margin: 30px;
+}
+.first-info {
+  margin-left: 220px;
+}
+.third-info {
+  margin-right: 220px;
+}
+h4 {
+  margin-left: 40px;
+}
+h3 {
+}
+
